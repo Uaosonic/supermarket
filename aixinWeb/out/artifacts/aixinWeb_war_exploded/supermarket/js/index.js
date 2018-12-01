@@ -31,7 +31,7 @@ $(function(){
 		else{
 				$.ajax({
 					type:"POST",
-					url:"http://wxy.nenu.edu.cn/aixinWeb/doLogin?flag=login",
+					url:"http://47.93.197.5/doLogin?flag=login",
 					dataType:"json",
 					data:{
 						username:un,
